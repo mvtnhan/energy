@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React from "react";
-// import Page1 from "./pages/KnowledgeHub/";
 import KnowledgeHub from "./pages/KnowledgeHub/";
 import CSR from "./pages/CSR/";
 import AboutUs from "./pages/AboutUs";

@@ -15,11 +15,11 @@ export default function Footer() {
       <ul>
         <li>
           <span>Email: </span>
-          <a>info@cmenergy.vn</a>
+          <a href="#">info@cmenergy.vn</a>
         </li>
         <li>
           <span>Phone: </span>
-          <a>(+84 28) 7300 2998</a>
+          <a href="#">(+84 28) 7300 2998</a>
         </li>
       </ul>
       <span>MEMBER OF</span>
