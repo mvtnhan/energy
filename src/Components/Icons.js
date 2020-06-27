@@ -5,8 +5,8 @@ import { ImgIcons } from "../Components/DataImg/ImagesIcon.js";
 export default function Icons() {
   return (
     <StyledIcons>
-      {ImgIcons.map((icon) => (
-        <img src={icon.image} alt=" " />
+      {ImgIcons.map((icon, key) => (
+        <img src={icon.image} alt=" " key={key} />
       ))}
     </StyledIcons>
   );

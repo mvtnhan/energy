@@ -16,8 +16,9 @@ export default function Index() {
       <Container className="Container">
         <h1 className="Title">Benefit to Clients</h1>
         <div className="Content">
-          {ImgPage1.map((box) => (
+          {ImgPage1.map((box, key) => (
             <BenefitBox
+              key={key}
               image={box.image}
               title={box.title}
               detail={box.detail}
