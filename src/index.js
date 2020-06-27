@@ -19,6 +19,7 @@ ${normalize}
   @media (max-width: 700px) {
     font-size: 28.8%
   }
+  
   @media (max-width: 590rem) {
     font-size: 23.5%
   }
@@ -26,8 +27,6 @@ ${normalize}
   @media (max-width: 430px) {
     font-size: 17.7%unset;
   }
-
-
 
   body, img, div, h3, h2, h1, p, ul, input {
     margin: 0;
@@ -41,6 +40,7 @@ ${normalize}
   h1{
     font-weight: 500;
   }
+
   li, button{
     cursor: pointer;
   }
@@ -53,11 +53,12 @@ const theme = {
     SemiBold: 600,
     Bold: 700,
   },
-  color: {
-    Orange: "#FF6E5D",
-    Gray: "#EFEFEF",
-    xanh: "#003556",
-  },
+
+  // color: {
+  //   Orange: "#FF6E5D",
+  //   Gray: "#EFEFEF",
+  //   xanh: "#003556",
+  // },
 };
 
 ReactDOM.render(
